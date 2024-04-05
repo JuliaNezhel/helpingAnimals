@@ -1,7 +1,11 @@
-import "./App.css"
+import { Header } from "@/components/layout/header/Header"
+import { Section } from "@/components/layout/section/Section"
 
-function App() {
-  return <>lol</>
+export function App() {
+  return (
+    <div>
+      <Header />
+      <Section />
+    </div>
+  )
 }
-
-export default App
